@@ -1,0 +1,90 @@
+.container
+{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(170, 248, 248, 0.645);
+}
+h1{
+    color: peru;
+    text-decoration: underline;
+
+}
+#about
+{
+    border: 1px solid;
+}
+#about p{
+    font-size: 20px;
+    word-spacing: 5px;
+    text-align: center;
+
+}
+#about img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+
+}
+#html + p 
+{
+ color: red;
+}
+.container a:visited
+{
+    color: red;
+}
+.container a:hover
+{
+text-decoration: none;
+background-color: greenyellow;
+}
+ a[title]
+{
+    color: rgb(11, 7, 3);
+}
+li[class='dhoni']
+{
+    font-style: bolder;
+    font-size: 40px;
+}
+.container ul li[id='kohli']{
+    font-size: 30px;
+}
+ol li:first-child
+{
+    font-size: 40px;
+}
+ol li:last-child
+{
+    color: red;
+}
+@media screen and (max-width:600px) {
+    body {
+
+        background-color: red
+    };
+    
+}
+.grid
+{
+    display: grid;
+    grid-template-columns: 400px 200px 200px;
+    gap: 20px;
+    border: 1px;
+}
+.boxes
+{
+   
+    border: 1px solid;
+    text-align: center;
+    font-size: 40px
+}
+.flex
+{
+    display: flex;
+    
+}
+.boxes
+{
+    flex-basis: 50px;
+}
